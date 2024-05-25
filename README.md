@@ -1,5 +1,6 @@
-# INFO
+# Url Filter
 
+## index.js
 > This executable is for filtering of urls inside an input file.
 
 Generates output.txt & urls.txt from input.txt
@@ -10,7 +11,13 @@ output.txt - filters input without urls at each line's index of 0.
 
 urls.txt - filters input with only urls at each line's index of 0.
 
-# HOW TO USE
+## HOW TO USE
 
 1. create input.txt with texts
 2. exec `npm start`
+
+# Timer
+
+## HOW TO USE
+
+1. exec `npm run timer --counter-sec-duration=<seconds duration>`
